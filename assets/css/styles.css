@@ -1,0 +1,289 @@
+
+html {
+    height: 100%
+}
+
+body {
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background: #000;
+    padding: 100px;
+    color: #fff;
+    font-family: Helvetica,Arial,sans-serif
+}
+
+body main {
+    min-height: 300px;
+    overflow: auto;
+    position: relative
+}
+
+body main div {
+    float: left;
+    width: 25%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    margin-bottom: 100px;
+    opacity: 0;
+    transition: all .3s ease,opacity 4s ease
+}
+
+body main div.show {
+    opacity: 1
+}
+
+body main div:nth-child(n+5) {
+    margin-bottom: 0
+}
+
+body main div:nth-child(4n+2) {
+    width: 22%;
+    margin-right: 3%
+}
+
+body main div:nth-child(4n+3) {
+    width: 22%;
+    margin-left: 3%
+}
+
+body main div.l1, body main div.l3  {
+    background-image: background-image: url(../images/p.svg);
+}
+
+body main div.l2 {
+    background-image: background-image: url(../images/h.svg);
+    background-position: center
+}
+
+body main div.l3 {
+	background-image: url(../images/y.svg);
+    background-position: center
+}
+
+body main div.l4 {
+    background-image: background-image: url(../images/s.svg);
+    background-position: right
+}
+
+body main div.l5 {
+    background-image: url(../images/i.svg);
+
+body main div.l6 {
+    background-image: url(../images/c.svg);
+}
+
+body main div.l7 {
+    background-image: background-image: url(../images/s2.svg);
+    background-position: center
+}
+
+body main div.l8 {
+    background-image: url(../images/dot.svg);
+    background-position: right
+}
+
+body footer {
+    overflow: auto;
+    position: absolute;
+    bottom: 100px;
+    width: calc(100% - 200px);
+    font-size: 18px
+}
+
+body footer .address {
+    opacity: .4
+}
+
+body footer ul {
+    float: right
+}
+
+body footer ul li {
+    float: left;
+    transition: border .4s ease;
+    border-bottom: 2px solid #000;
+    padding-bottom: 4px
+}
+
+body footer ul li:hover {
+    border-color: #fff
+}
+
+body footer ul li:first-child {
+    margin-right: 40px
+}
+
+body footer ul li a {
+    text-decoration: none;
+    color: #fff
+}
+
+@media only screen and (max-width: 800px) {
+body {
+    padding: 50px
+}
+
+body footer {
+    width: calc(100% - 100px)
+}
+
+body footer span {
+    display: inline-block
+}
+}
+
+@media only screen and (max-width: 800px) and (min-height: 500px),(max-device-width: 1100px) {
+body main {
+    margin-top: 0
+}
+
+body main div {
+    height: 75px;
+    width: 33.32%!important;
+    margin: 0!important;
+    background-position: left;
+    margin-bottom: 15%!important
+}
+
+body main div:nth-child(3n+1) {
+    background-position: left
+}
+
+body main div:nth-child(3n+2) {
+    background-position: center
+}
+
+body main div:nth-child(3n+3) {
+    background-position: right
+}
+
+body main div:nth-child(n+7) {
+    margin-bottom: 0!important
+}
+}
+
+@media screen and (max-height: 800px) {
+body main {
+    margin-top: 0;
+    -webkit-transform: none;
+    transform: none;
+    top: 0
+}
+}
+
+@media screen and (max-height: 650px) {
+html {
+    height: auto
+}
+
+body main div:nth-child(-n+4) {
+    margin-top: 0
+}
+
+body footer {
+    position: static;
+    width: 100%;
+    margin-top: 50px
+}
+}
+
+@media screen and (max-device-width: 1100px) {
+body main div {
+    height: 200px
+}
+}
+
+@media screen and (max-width: 720px),(max-device-width: 500px) {
+body footer ul {
+    float: none;
+    margin-top: 20px
+}
+}
+
+@media screen and (max-device-width: 500px),(max-width: 500px) {
+body {
+    padding: 20%
+}
+
+body main div {
+    width: 50%!important;
+    height: 150px;
+    margin-bottom: 150px!important
+}
+
+body main div:nth-child(odd) {
+    background-position: left!important
+}
+
+body main div:nth-child(even) {
+    background-position: right!important;
+    -webkit-transform: translateX(-7%);
+    transform: translateX(-7%)
+}
+
+body main div:nth-child(6) {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    margin-right: 0!important
+}
+
+body footer {
+    position: static;
+    margin-top: 50px
+}
+
+body footer span:last-of-type {
+    margin-top: 10px
+}
+}
+
+@media screen and (max-device-width: 500px) {
+body footer {
+    font-size: 32px
+}
+}
+
+@media screen and (max-width: 540px) {
+body main div {
+    height: 100px;
+    margin-bottom: 100px!important
+}
+
+body footer {
+    position: static;
+    margin-top: 50px;
+    width: 100%;
+    font-size: 16px
+}
+
+body footer span:last-of-type {
+    margin-top: 10px
+}
+}
+
+@media screen and (max-width: 540px) and (min-height: 1000px) {
+body main {
+    -webkit-transform: none;
+    transform: none;
+    top: 0
+}
+
+body footer {
+    position: absolute;
+    bottom: 75px;
+    width: calc(100% - 200px)
+}
+}
+
+@media screen and (max-height: 500px) and (max-width: 500px) {
+body main div {
+    width: 50%!important;
+    margin-right: 0!important;
+    margin-left: 0!important
+}
+}
