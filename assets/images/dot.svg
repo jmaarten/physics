@@ -3,12 +3,5 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
-<g>
-	<g enable-background="new    ">
-		<path fill="#FFFFFF" d="M203.763,445.076c0-12.634,4.257-22.887,12.771-30.762c8.515-7.87,19.179-11.81,31.998-11.81
-			c12.999,0,23.759,3.939,32.272,11.81c8.515,7.875,12.771,18.128,12.771,30.762c0,12.454-4.214,22.569-12.634,30.351
-			c-8.425,7.784-19.227,11.673-32.41,11.673c-13.003,0-23.715-3.889-32.135-11.673C207.973,467.646,203.763,457.53,203.763,445.076z
-			"/>
-	</g>
-</g>
+<circle fill="#FFFFFF" cx="248.5" cy="442.5" r="45"/>
 </svg>
