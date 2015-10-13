@@ -52,11 +52,11 @@ body main div:nth-child(4n+3) {
 }
 
 body main div.l1, body main div.l3  {
-    background-image: background-image: url(../images/p.svg);
+    background-image: url(../images/p.svg);
 }
 
 body main div.l2 {
-    background-image: background-image: url(../images/h.svg);
+    background-image: url(../images/h.svg);
     background-position: center
 }
 
@@ -66,7 +66,7 @@ body main div.l3 {
 }
 
 body main div.l4 {
-    background-image: background-image: url(../images/s.svg);
+    background-image: url(../images/s.svg);
     background-position: right
 }
 
@@ -78,7 +78,7 @@ body main div.l6 {
 }
 
 body main div.l7 {
-    background-image: background-image: url(../images/s2.svg);
+    background-image: url(../images/s2.svg);
     background-position: center
 }
 
