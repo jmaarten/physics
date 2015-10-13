@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 12 16" enable-background="new 0 0 12 16" xml:space="preserve">
+	 width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
 <g>
-	<text transform="matrix(1 0 0 1 0.1222 15.6011)" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="18">C</text>
+	<g enable-background="new    ">
+		<path fill="#FFFFFF" d="M415.952,354.307c-3.115,43.031-18.998,76.904-47.653,101.623c-28.658,24.72-66.424,37.079-113.296,37.079
+			c-51.271,0-91.599-17.256-120.987-51.773c-29.388-34.512-44.083-81.891-44.083-142.136v-24.444
+			c0-38.452,6.772-72.325,20.325-101.623c13.548-29.294,32.912-51.773,58.09-67.429c25.174-15.656,54.425-23.483,87.753-23.483
+			c46.143,0,83.312,12.359,111.511,37.079c28.195,24.719,44.495,59.42,48.89,104.095h-82.397
+			c-2.018-25.818-9.201-44.538-21.561-56.167c-12.36-11.626-31.174-17.441-56.442-17.441c-27.466,0-48.022,9.845-61.661,29.526
+			c-13.643,19.685-20.646,50.219-21.011,91.599v30.212c0,43.216,6.544,74.802,19.638,94.757
+			c13.089,19.96,33.736,29.938,61.936,29.938c25.448,0,44.447-5.811,56.991-17.441c12.54-11.625,19.729-29.616,21.561-53.97H415.952
+			z"/>
+	</g>
 </g>
 </svg>
